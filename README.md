@@ -43,3 +43,17 @@ Should merge all three datasets by tweet id.
 
 
 In conclustion, during this process, I learnt several tools for data wrangling. Also, I familarize myself with many sources of help, such as Udacity, stackoverflow and github.
+
+### Insights
+More detalied are can be found in act.ipynb
+
+#### Insight 1
+The rating of the dogs are not related to its retweet count or favorite count, suggesting that most of ratings are objective and does not represent the public opinions. However, retweet count and favorite count are highly correlated.
+
+corr.png
+
+#### Insight 2
+For the general dataset, pupper is the largest category with a percentage of 67.4.1.pngHowever, for the top 100 favorited tweets, doggo is the largest category and thre is no floofer.2.pngThe most popluar dog breeds are golden_retrievers among the top favorited tweets3.pnggolden_retriever 12 Labrador_retriever 8 French_bulldog 8 Lakeland_terrier 4 standard_poodle 4 flat-coated_retriever 4 toy_poodle 4 Eskimo_dog 4 Rottweiler 4 whippet 4 Bedlington_terrier 4 chow 4 Chesapeake_Bay_retriever 4 cocker_spaniel 4 Pomeranian 4 English_springer 4 malamute 4
+
+#### Insight 3
+Year 2016 is when most tweets are published and most tweets are favorited and retweeted.5.png6d.png
